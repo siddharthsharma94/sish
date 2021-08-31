@@ -1,4 +1,4 @@
-# syntax = docker/dockerfile:experimental
+# syntax=docker/dockerfile:experimental
 FROM --platform=$BUILDPLATFORM golang:1.16-alpine as builder
 LABEL maintainer="Antonio Mika <me@antoniomika.me>"
 
